@@ -117,3 +117,38 @@ footer {
     object-fit: cover; /* Обрізає зображення без втрати пропорцій */
     border: 3px solid #3498db; /* Синя рамка */
 }
+/* Секція для кнопки завантаження */
+.download {
+    text-align: center;
+    background: #ecf0f1;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Стиль кнопок */
+.cta-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #3498db; /* Синій колір */
+    color: white;
+    text-decoration: none;
+    border-radius: 8px; /* Закруглені краї */
+    font-weight: bold;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Ефект при наведенні */
+.cta-button:hover {
+    background: #2980b9; /* Темніший синій */
+    transform: scale(1.05); /* Легке збільшення */
+}
+
+/* Для мобільних пристроїв */
+@media (max-width: 768px) {
+    .cta-button {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+}
