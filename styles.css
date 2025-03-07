@@ -27,12 +27,10 @@ header p {
 
 /* Контейнер */
 .container {
-    overflow: visible; /* Вимикає обрізку тексту */
-    max-height: none; /* Прибирає обмеження висоти */
-}
     width: 80%;
     margin: auto;
-    overflow: hidden;
+    overflow: visible; /* Вимикає обрізку тексту */
+    max-height: none; /* Прибирає обмеження висоти */
     background: white;
     padding: 20px;
     border-radius: 5px;
