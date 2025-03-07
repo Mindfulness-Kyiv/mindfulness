@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyiv Mental Health Center – Mindfulness Space</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .event, .course {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .cta-button:hover {
+            background: #2980b9;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2c3e50;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Kyiv Mental Health Center – Mindfulness Space</h1>
+        <p>Популяризація майндфулнес в Україні</p>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>Про нас</h2>
+            <p><strong>Kyiv Mental Health Center – Mindfulness Space</strong> – це простір усвідомленості, що допомагає людям покращити ментальне здоров’я через практики майндфулнес.</p>
+        </section>
+
+        <section>
+            <h2>Засновники</h2>
+            <p><strong>👨‍⚕️ Гречаник Євген</strong> – психолог, психотерапевт, сертифікований вчитель майндфулнес, програми MBSR/MBCT.<br>
+            ✅ Дійсний член Української майндфулнес асоціації (УМА).</p>
+
+            <p><strong>👩‍⚕️ Оксанич Антоніна</strong> – психологиня, психотерапевтка, супервізорка, сертифікована вчителька майндфулнес, програми MBSR.<br>
+            ✅ Дійсна членкиня Української майндфулнес асоціації (УМА).</p>
+        </section>
+
+        <section class="event">
+            <h2>📅 Деталі події: Онлайн-семінар</h2>
+            <p><strong>🕒 Коли:</strong> 22 березня з 11:00 до 12:30 за Київським часом ⏳</p>
+            <p><strong>💻 Формат:</strong> Онлайн (Zoom) 🌍</p>
+            <p><strong>💰 Участь:</strong> Безкоштовна</p>
+            <p><strong>📌 Як взяти участь?</strong> Заповніть анкету за посиланням:</p>
+            <a href="https://forms.gle/jPLP4uKuyzzCD7Um6" class="cta-button">Реєстрація</a>
+        </section>
+
+        <section class="course">
+            <h2>📅 Курс зниження стресу MBSR</h2>
+            <p>🌿 <strong>MBSR (Mindfulness-Based Stress Reduction)</strong> – це науково обґрунтована програма, що допомагає:</p>
+            <ul>
+                <li>Зменшити стрес та підвищити емоційну стійкість</li>
+                <li>Поліпшити сон та загальне самопочуття</li>
+                <li>Розвинути усвідомленість та покращити відносини</li>
+            </ul>
+            <p><strong>🗓 Початок курсу:</strong> 17 квітня 2025 року</p>
+            <p><strong>⏰ Графік зустрічей:</strong> 
+            <ul>
+                <li>Щочетверга – з 9:30 до 12:00 (ранкова група) або</li>
+                <li>з 18:30 до 21:00 (вечірня група)</li>
+            </ul>
+            </p>
+            <p><strong>🤗 Груповий формат:</strong> до 12 осіб</p>
+            <p><strong>💰 Вартість:</strong> 9000 грн (знижки для ранніх реєстрацій)</p>
+            <p>При оплаті до 1 квітня – 8000 грн, до 10 квітня – 8500 грн.</p>
+            <p><strong>📌 Як зареєструватися?</strong> Заповніть анкету:</p>
+            <a href="https://forms.gle/hAtxpV1GZwD8771ZA" class="cta-button">Реєстрація на курс</a>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Kyiv Mental Health Center – Mindfulness Space</p>
+    </footer>
+
+</body>
+</html>
