@@ -104,22 +104,24 @@ footer {
     }
 .founder {
     display: flex;
-    align-items: center; /* Вирівнювання фото і тексту */
-    gap: 20px;
+    align-items: center; /* Вирівнює фото і текст по центру */
+    gap: 15px; /* Відстань між фото і текстом */
     margin-bottom: 20px;
-    flex-wrap: wrap; /* Запобігає обрізанню тексту */
+    flex-wrap: wrap; /* Запобігає спотворенню на мобільних */
 }
 
 .founder img {
-    width: 150px;
-    height: 200px;
-    object-fit: cover;
+    width: 120px; /* Менший розмір фото */
+    height: 160px;
+    object-fit: cover; /* Обрізає фото для гарного вигляду */
     border-radius: 5px;
-    border: 3px solid #3498db;
+    border: 2px solid #3498db;
 }
 
 .founder-text {
-    max-width: 70%; /* Запобігає розтягуванню тексту */
+    max-width: 75%; /* Запобігає занадто довгим рядкам тексту */
+}
+    тексту */
 }
 }
 /* Секція для кнопки завантаження */
