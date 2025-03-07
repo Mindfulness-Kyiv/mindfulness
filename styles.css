@@ -105,17 +105,18 @@ footer {
 }
 .founder {
     display: flex;
-    align-items: center;
-    gap: 15px;
+    align-items: flex-start; /* Вирівнювання по верху */
+    gap: 20px; /* Відстань між фото та текстом */
     margin-bottom: 20px;
 }
 
 .founder img {
-    width: 120px; /* Розмір фото */
-    height: 120px;
-    border-radius: 50%; /* Кругле фото */
-    object-fit: cover; /* Обрізає зображення без втрати пропорцій */
+    width: 150px; /* Фіксована ширина фото */
+    height: 200px; /* Фіксована висота фото */
+    object-fit: cover; /* Обрізає фото, щоб заповнити контейнер */
+    border-radius: 5px; /* Легке закруглення */
     border: 3px solid #3498db; /* Синя рамка */
+}
 }
 /* Секція для кнопки завантаження */
 .download {
