@@ -102,29 +102,33 @@ footer {
     p {
         font-size: 16px;
     }
+/* Загальний контейнер для засновників */
 .founder {
     display: flex;
-    align-items: center;
+    flex-direction: row; /* Розташування фото і тексту в один рядок */
+    align-items: center; /* Вирівнювання по центру */
     gap: 15px; /* Відстань між фото і текстом */
-    margin-bottom: 25px;
+    margin-bottom: 25px; /* Відступ між блоками */
 }
 
+/* Фото засновників */
 .founder img {
-    width: 180px; /* Однаковий розмір фото */
-    height: 180px;
-    object-fit: cover; /* Обрізає зображення, щоб зберігати пропорції */
-    border-radius: 8px;
-    border: 3px solid #3498db;
+    width: 180px; /* Фіксована ширина */
+    height: 180px; /* Фіксована висота */
+    object-fit: cover; /* Щоб фото не розтягувалися */
+    border-radius: 8px; /* Округлені кути */
+    border: 3px solid #3498db; /* Синя рамка */
 }
 
+/* Текстовий блок */
 .founder-text {
     font-size: 13px; /* Зменшений шрифт */
-    max-width: 65%; /* Збільшили ширину текстового блоку */
-    text-align: left;
+    max-width: 65%; /* Оптимальна ширина блоку */
+    text-align: left; /* Вирівнювання тексту */
     display: flex;
-    flex-direction: column;
-    justify-content: center; /* Вирівнює текст по центру фото */
-}фото */
+    flex-direction: column; /* Щоб текст був вертикально */
+    justify-content: center; /* Вирівнювання по центру фото */
+}
 }
 }тексту */
 }
