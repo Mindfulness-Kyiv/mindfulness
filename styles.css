@@ -27,6 +27,9 @@ header p {
 
 /* Контейнер */
 .container {
+    overflow: visible; /* Вимикає обрізку тексту */
+    max-height: none; /* Прибирає обмеження висоти */
+}
     width: 80%;
     margin: auto;
     overflow: hidden;
