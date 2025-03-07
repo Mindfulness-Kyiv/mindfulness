@@ -104,22 +104,27 @@ footer {
     }
 .founder {
     display: flex;
-    align-items: center; /* Вирівнює фото і текст по центру */
-    gap: 15px; /* Відстань між фото і текстом */
-    margin-bottom: 20px;
-    flex-wrap: wrap; /* Запобігає спотворенню на мобільних */
+    align-items: center;
+    gap: 20px; /* Відстань між фото та текстом */
+    margin-bottom: 30px;
 }
 
 .founder img {
-    width: 120px; /* Менший розмір фото */
-    height: 160px;
-    object-fit: cover; /* Обрізає фото для гарного вигляду */
-    border-radius: 5px;
-    border: 2px solid #3498db;
+    width: 200px; /* Трохи зменшуємо розмір фото */
+    height: auto;
+    border-radius: 10px;
+    border: 3px solid #3498db;
 }
 
 .founder-text {
-    max-width: 75%; /* Запобігає занадто довгим рядкам тексту */
+    max-width: 60%; /* Щоб текст не розтягувався занадто широко */
+    font-size: 14px; /* Зменшуємо шрифт тексту */
+    line-height: 1.4; /* Робимо текст компактнішим */
+}
+
+.founder-text p {
+    margin: 5px 0;
+}тексту */
 }
     тексту */
 }
