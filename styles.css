@@ -7,29 +7,31 @@ body {
     background-color: #f8f8f8;
     color: #/* Заголовок */
 }
-   /* Заголовок */
+  /* Заголовок */
 header {
     background: #2c3e50;
     color: white;
-    padding: 10px 0; /* Зменшуємо висоту ще більше */
+    padding: 15px 0; /* Зменшено висоту синього фону */
     text-align: center;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-height: 180px; /* Фіксована мінімальна висота */
 }
  /* Логотип */
 .logo-container img {
-    max-width: 220px; /* Логотип великий */
+    max-width: 250px; /* Збільшено логотип */
     height: auto;
     display: block;
-    margin-bottom: 5px; /* Зменшуємо відступ до тексту */
+    margin-bottom: 10px; /* Трохи більший відступ під логотипом */
 }
+/* Текст під логотипом */
 .header-text {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
-    margin-top: 0; /* Прибираємо зайві відступи */
-    padding: 5px 0; /* Мінімальний відступ для гарного вигляду */
+    margin-top: 0px; /* Прибрано зайві відступи */
+    padding: 0; /* Щільно під логотипом */
 }
 header p {
     font-size: 16px;
