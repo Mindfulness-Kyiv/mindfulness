@@ -26,13 +26,6 @@ header {
     display: block;
     margin-bottom: 5px; /* Трохи більший відступ під логотипом */
 }
-/* Текст під логотипом */
-.header-text {
-    font-size: 18px;
-    text-align: center;
-    margin-top: -25px; /* Прибрано зайві відступи */
-    padding: 0; /* Щільно під логотипом */
-}
 header p {
     font-size: 16px;
 }
