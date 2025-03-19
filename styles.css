@@ -5,66 +5,62 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
-    color: #/* Заголовок */
+    color: #333;
 }
-  /* Заголовок */
-header {
-    background: none; /* Видаляє синій фон */
-    color: black; /* Міняє колір тексту */
+
+/* Логотип */
+.logo-container {
     text-align: center;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: auto; /* Прибирає зайву висоту */
+    padding: 20px 0;
 }
- /* Логотип */
+
 .logo-container img {
-    max-width: 250px; /* Збільшено логотип */
+    max-width: 250px; /* Великий логотип */
     height: auto;
     display: block;
-    margin-bottom: 10px; /* Трохи більший відступ під логотипом */
+    margin: 0 auto;
 }
-<div class="header-divider"></div>
+
+/* Тонка синя смуга між логотипом і текстом */
 .header-divider {
     width: 100%;
     height: 10px; /* Висота 1 см */
-    background-color: #2c3e50; /* Синій колір */
-    margin-bottom: 10px; /* Відступ перед текстом */
+    background-color: #2c3e50;
+    margin-bottom: 10px;
 }
+
 /* Текст під логотипом */
 .header-text {
     font-size: 18px;
     text-align: center;
-    margin-top: 0px; /* Прибрано зайві відступи */
-    padding: 0; /* Щільно під логотипом */
-}
-header p {
-    font-size: 16px;
+    margin-top: 0;
+    padding-bottom: 10px;
 }
 
 /* Контейнер */
 .container {
     width: 80%;
     margin: auto;
-    overflow: visible; /* Вимикає обрізку тексту */
-    max-height: none; /* Прибирає обмеження висоти */
+    overflow: visible;
     background: white;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Секції */
+/* Заголовки */
 h2 {
     color: #2c3e50;
     border-bottom: 2px solid #3498db;
     padding-bottom: 5px;
+    text-align: center; /* Заголовки по центру */
 }
 
+/* Основний текст у блоках вирівняний по лівому краю */
 p {
     font-size: 18px;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 /* Блоки подій */
@@ -77,25 +73,50 @@ p {
 
 /* Кнопки */
 .cta-button {
-    display: inline-block;
-    padding: 10px 15px;
+    display: block;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 12px 20px;
     background: #3498db;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
     font-weight: bold;
-    transition: 0.3s;
+    font-size: 16px;
+    text-align: center;
+    transition: background 0.3s, transform 0.2s;
 }
 
 .cta-button:hover {
     background: #2980b9;
+    transform: scale(1.05);
 }
 
-/* Зображення */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+/* Фото засновників */
+.founder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+/* Видалено сині рамки навколо фото */
+.founder img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Текстовий блок засновників */
+.founder-text {
+    font-size: 14px;
+    max-width: 65%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Підвал */
@@ -112,79 +133,28 @@ footer {
     .container {
         width: 95%;
     }
-    
-    header h1 {
-        font-size: 22px;
-    }
 
     p {
         font-size: 16px;
     }
-/* Загальний контейнер для засновників */
-.founder {
-    display: flex;
-    flex-direction: row; /* Розташування фото і тексту в один рядок */
-    align-items: center; /* Вирівнювання по центру */
-    gap: 15px; /* Відстань між фото і текстом */
-    margin-bottom: 25px; /* Відступ між блоками */
-}
 
-/* Фото засновників */
-.founder img {
-    width: 180px; /* Фіксована ширина */
-    height: 180px; /* Фіксована висота */
-    object-fit: cover; /* Щоб фото не розтягувалися */
-    border-radius: 8px; /* Округлені кути */
-    border: 3px solid #3498db; /* Синя рамка */
-}
-
-/* Текстовий блок */
-.founder-text {
-    font-size: 13px; /* Зменшений шрифт */
-    max-width: 65%; /* Оптимальна ширина блоку */
-    text-align: left; /* Вирівнювання тексту */
-    display: flex;
-    flex-direction: column; /* Щоб текст був вертикально */
-    justify-content: center; /* Вирівнювання по центру фото */
-}
-}
-}тексту */
-}
-    тексту */
-}
-}
-/* Секція для кнопки завантаження */
-.download {
-    text-align: center;
-    background: #ecf0f1;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-/* Стиль кнопок */
-.cta-button {
-    display: inline-block;
-    padding: 12px 20px;
-    background: #3498db; /* Синій колір */
-    color: white;
-    text-decoration: none;
-    border-radius: 8px; /* Закруглені краї */
-    font-weight: bold;
-    font-size: 16px;
-    transition: background 0.3s, transform 0.2s;
-}
-
-/* Ефект при наведенні */
-.cta-button:hover {
-    background: #2980b9; /* Темніший синій */
-    transform: scale(1.05); /* Легке збільшення */
-}
-
-/* Для мобільних пристроїв */
-@media (max-width: 768px) {
     .cta-button {
         font-size: 14px;
         padding: 10px 16px;
+    }
+
+    .founder {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .founder img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .founder-text {
+        max-width: 100%;
+        text-align: center;
     }
 }
