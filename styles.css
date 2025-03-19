@@ -6,50 +6,49 @@ body {
     padding: 0;
     background-color: #f8f8f8;
     color: #333;
-    text-align: center; /* Вирівнюємо текст по центру */
+    text-align: center; /* Центрує весь контент */
 }
 
 /* Заголовок */
 header {
     background: #2c3e50;
     color: white;
-    padding: 15px 0; /* Робимо хедер нижчим */
+    padding: 20px 0;
     text-align: center;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 /* Контейнер логотипа */
 .logo-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Логотип */
 .logo-container img {
-    max-width: 250px; /* Великий логотип */
+    max-width: 250px; /* Логотип збільшений */
     height: auto;
     display: block;
-    margin-bottom: 10px; /* Менший відступ між логотипом і текстом */
+    margin-bottom: 10px; /* Відступ від логотипа до тексту */
 }
 
 /* Текст під логотипом */
 .header-text {
     font-size: 18px;
     text-align: center;
-    margin-top: -5px; /* Підтягуємо ближче до логотипа */
+    margin-top: 0;
+    padding: 5px 0;
 }
 
-/* Основний контейнер */
+/* Основний контент */
 .container {
     width: 80%;
     margin: auto;
-    overflow: visible;
     background: white;
     padding: 20px;
     border-radius: 5px;
@@ -61,29 +60,14 @@ h2 {
     color: #2c3e50;
     border-bottom: 2px solid #3498db;
     padding-bottom: 5px;
-    text-align: center; /* Центруємо заголовки */
+    text-align: center;
 }
 
+/* Текст */
 p {
     font-size: 18px;
     margin-bottom: 10px;
     text-align: center;
-}
-
-/* Кнопки */
-.cta-button {
-    display: inline-block;
-    padding: 10px 15px;
-    background: #3498db;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.cta-button:hover {
-    background: #2980b9;
 }
 
 /* Підвал */
@@ -95,22 +79,18 @@ footer {
     margin-top: 20px;
 }
 
-/* Адаптація під мобільні пристрої */
+/* Для мобільних пристроїв */
 @media (max-width: 768px) {
     .container {
         width: 95%;
     }
-    
+
     .logo-container img {
-        max-width: 200px; /* Трохи менший логотип для мобільних */
+        max-width: 200px; /* Менший логотип для мобільних */
     }
 
     .header-text {
         font-size: 16px;
-    }
-
-    h2 {
-        font-size: 20px;
     }
 
     p {
