@@ -17,7 +17,7 @@ body {
     padding: 20px 0 10px 0; /* Відступи: верхній 20px, нижній 10px */
 }
 
-/* Логотип */
+/* Логотип */<div class="divider"></div>
 .logo-container img {
     max-width: 250px; /* Великий логотип */
     height: auto;
