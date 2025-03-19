@@ -11,33 +11,42 @@ body {
 header {
     background: #2c3e50;
     color: white;
-    padding: 0px 0; /* Зменшено висоту синього фону */
+    padding: 15px 0; /* Зменшено висоту синього фону */
     text-align: center;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 50px; /* Фіксована мінімальна висота */
+    min-height: 180px; /* Фіксована мінімальна висота */
 }
  /* Логотип */
 .logo-container img {
-    max-width: 400px; /* Збільшено логотип */
+    max-width: 250px; /* Збільшено логотип */
     height: auto;
     display: block;
-    margin-bottom: 5px; /* Трохи більший відступ під логотипом */
+    margin-bottom: 10px; /* Трохи більший відступ під логотипом */
+}
+/* Текст під логотипом */
+.header-text {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px; /* Прибрано зайві відступи */
+    padding: 0; /* Щільно під логотипом */
 }
 header p {
     font-size: 16px;
 }
 
+/* Контейнер */
 .container {
     width: 80%;
-    margin: 0 auto; /* Центрування контейнера */
+    margin: auto;
+    overflow: visible; /* Вимикає обрізку тексту */
+    max-height: none; /* Прибирає обмеження висоти */
     background: white;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    text-align: left; /* Запобігає центрованому тексту */
 }
 
 /* Секції */
