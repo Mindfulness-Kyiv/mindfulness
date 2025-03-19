@@ -30,16 +30,14 @@ header p {
     font-size: 16px;
 }
 
-/* Контейнер */
 .container {
     width: 80%;
-    margin: auto;
-    overflow: visible; /* Вимикає обрізку тексту */
-    max-height: none; /* Прибирає обмеження висоти */
+    margin: 0 auto; /* Центрування контейнера */
     background: white;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Запобігає центрованому тексту */
 }
 
 /* Секції */
