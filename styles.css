@@ -11,7 +11,7 @@ body {
 header {
     background: #2c3e50;
     color: white;
-    padding: 15px 0; /* Зменшено висоту синього фону */
+    padding: 10px 0; /* Зменшено висоту синього фону */
     text-align: center;
     width: 100%;
     display: flex;
@@ -21,16 +21,16 @@ header {
 }
  /* Логотип */
 .logo-container img {
-    max-width: 250px; /* Збільшено логотип */
+    max-width: 300px; /* Збільшено логотип */
     height: auto;
     display: block;
-    margin-bottom: 10px; /* Трохи більший відступ під логотипом */
+    margin-bottom: 5px; /* Трохи більший відступ під логотипом */
 }
 /* Текст під логотипом */
 .header-text {
     font-size: 18px;
     text-align: center;
-    margin-top: 0px; /* Прибрано зайві відступи */
+    margin-top: -5px; /* Прибрано зайві відступи */
     padding: 0; /* Щільно під логотипом */
 }
 header p {
