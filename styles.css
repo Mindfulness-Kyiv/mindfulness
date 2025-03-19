@@ -11,17 +11,17 @@ body {
 header {
     background: #2c3e50;
     color: white;
-    padding: 10px 0; /* Зменшено висоту синього фону */
+    padding: 0px 0; /* Зменшено висоту синього фону */
     text-align: center;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100px; /* Фіксована мінімальна висота */
+    min-height: 50px; /* Фіксована мінімальна висота */
 }
  /* Логотип */
 .logo-container img {
-    max-width: 300px; /* Збільшено логотип */
+    max-width: 400px; /* Збільшено логотип */
     height: auto;
     display: block;
     margin-bottom: 5px; /* Трохи більший відступ під логотипом */
@@ -30,7 +30,7 @@ header {
 .header-text {
     font-size: 18px;
     text-align: center;
-    margin-top: -5px; /* Прибрано зайві відступи */
+    margin-top: -25px; /* Прибрано зайві відступи */
     padding: 0; /* Щільно під логотипом */
 }
 header p {
